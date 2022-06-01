@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<!--
+        Landed by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+        <head>
+                <title>Developers of Dearborn</title>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+                <link rel="stylesheet" href="assets/css/main.css" />
+                <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+                <link rel="apple-touch-icon" sizes="180x180"    href="images/fav/apple-touch-icon.png">
+                <link rel="icon" type="image/png" sizes="128x128" href="images/fav/favicon-128x128.png">
+                <link rel="icon" type="image/png" sizes="64x64" href="images/fav/favicon-64x64.png">
+                <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+                <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+                <link rel="manifest"                            href="images/fav/site.webmanifest">
+                <link rel="mask-icon"                           href="images/fav/safari-pinned-tab.svg" color="#5bbad5">
+                <meta name="msapplication-TileColor" content="#da532c">
+                <meta name="theme-color" content="#ffffff">
+
+        </head>
+        <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                                        showSlides(slideIndex += n);
+                                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                                        showSlides(slideIndex = n);
+                                }
+
+                function showSlides(n) {
+                                        var i;
+                                        var slides = document.getElementsByClassName("mySlides");
+                                        var dots = document.getElementsByClassName("dot");
+                                        if (n > slides.length) {slideIndex = 1}
+                                        if (n < 1) {slideIndex = slides.length}
+                                        for (i = 0; i < slides.length; i++) { slides[i].style.display = "none";
+                                                        }
+                                        for (i = 0; i < dots.length; i++) { dots[i].className = dots[i].className.replace(" aactive", ""); }
+                                        slides[slideIndex-1].style.display = "block";
+                                        dots[slideIndex-1].className += " aactive";
+                                }
+        </script>
+        <body class="is-preload">
+                <div id="page-wrapper">
+
+                        <!-- Header -->
+                        <header id="header">
+                                <h1 id="logo"><a href="index.html">Joshlynn</a></h1>
+                                <nav id="nav">
+                                        <ul>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li>
+                                                        <a href="#">Games</a>
+                                                        <ul>
+                                                                <li><a href="heart-clash2.html">Heart Clash</a></li>
+                                                                <li><a href="rhythm.html">Phantom Rhythm Girl</a></li>
+                                                                <li><a href="more.html">Game Jam Projects</a></li>
+                                                                <li><a href="dod.html">Developers of Dearborn</a></li>
+                                                        </ul>
+                                                </li>
+                                                <li><a href="about.html">About Me </a></li>
+                                                <li><a href="resume.pdf" class="button primary">Resume</a></li>
+                                        </ul>
+                                </nav>
+                        </header>
+
+                        <!-- Main -->
+                        <div id="main" class="wrapper style1 container li">
+                                <!-- Introduction -->
+                                <section>
+                                        <header class="major">
+                                                <h2>Developers of Dearborn</h2>
+                                                <p>Advisor, Project Manger, Game Designer, Unity Developer</p>
+                                        </header>
+
+                                        <figure>
+                                                <img src="images/dod/DOD_discord_icon.png">
+                                                <br/>
+                                        </figure>
+                                        <br/>
+                                </section>
+
+
+                                <!-- About -->
+                                <section> 
+                                        <h2> About </h2>
+                                        <ul class="lli">
+                                                <li> A student organization in University of Michigan Dearborn, with the goal to create video games</li>
+                                                <li> Created one video game, led a successful game jam and have guest speakers from the video game industry like Epic, Xbox, etc.</li>
+                                        </ul>
+                                </section>
+                                <h2>  </h2>
+
+                                <!-- Contributions -->
+                                <section>
+                                        <h2> Contributions </h2>
+                                        <dl class="lli">
+                                                <dt>Advisor</dt>
+                                                <dd>Taught team programming in Unity</dd>
+                                                <dd>Organize events such as Fall 2021 game jam</dd>
+                                                <dd>Led a workshop on indie video game development</dd>
+
+
+
+                                                <dt>Project Manager</dt>
+                                                <dd>Collaborated daily with cross-disciplinary team of diverse developers</dd>
+                                                <dd>Gathered requirements and scope out project</dd>
+                                                <dd>Authored documentation to streamline development</dd>
+
+                                                <dt>Game Designer</dt>
+                                                <dd>Authored specification document</dd>
+                                                <dd>Designed a run and game platformer</dd>
+                                                <dd>Created the scenarios and boss fights</dd>
+
+                                                <dt>Unity Developer</dt>
+                                                <dd>Implemented the main gameplay loop</dd>
+                                                <dd>Implemented cutscenes in the game</dd>
+                                        </dl>
+                                </section>
+
+
+
+
+                                </section>
+
+                                <!-- Screenshots of the game and game itself -->
+                                <!-- Slideshow container -->
+                                <div class="slideshow-container" >
+
+                                        <!-- Full-width images with number and caption text -->
+                                        <div class="mySlides fade">
+                                                <div class="numbertext">1 /2</div>
+                                                <img src="images/dod/snide.jpg" style="width:100%; padding: 40px 0 40px;">
+                                                <div class="text">Detroit Racers: touch bananas on a rode trip</div>
+                                        </div> 
+
+                                        <div class="mySlides fade">
+                                                <div class="numbertext">2 / 2</div>
+                                                <img src="images/dod/kirk.jpg" style="width:100%; padding: 40px 0 40px;">
+                                                <div class="text">Knockout City: a cowboy slinger adventure</div>
+                                        </div> 
+                                        <!-- <div class="mySlides fade"> -->
+                                        <!--         <div class="numbertext">3 / 5</div> -->
+                                        <!--         <img src="images/phantom/5.gif" style="width:100%; padding: 40px 0 40px;"> -->
+                                        <!--         <div class="text">Visual Novel</div> -->
+                                        <!-- </div> --> 
+                                        <!-- <div class="mySlides fade"> -->
+                                        <!--         <div class="numbertext">4 / 5</div> -->
+                                        <!--         <img src="images/phantom/2.gif" style="width:100%; padding: 40px 0 40px;"> -->
+                                        <!--         <div class="text">Cinematic Graphic 1</div> -->
+                                        <!-- </div> --> 
+                                        <!-- <div class="mySlides fade"> -->
+                                        <!--         <div class="numbertext">5 / 5</div> -->
+                                        <!--         <img src="images/phantom/4.gif" style="width:100%; padding: 40px 0 40px;"> -->
+                                        <!--         <div class="text">Cinematic Graphic 2</div> -->
+                                        <!-- </div> --> 
+
+
+                                        <!-- Next and previous buttons -->
+                                        <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+                                        <div class="next" onclick="plusSlides(1)">&#10095;</div>
+                                </div>
+                                <br>
+
+                                <!-- The dots/circles -->
+                                <div style="text-align:center">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+                                        <!-- <span class="dot" onclick="currentSlide(4)"></span> -->
+                                       <!-- <span class="dot" onclick="currentSlide(5)"></span> -->
+                                </div>
+
+
+                                </section>
+
+
+                        </div>
+
+                        <!-- Footer -->
+                        <footer id="footer">
+                                <ul class="icons">
+                                        <li><a href="https://joshlynn.itch.io/" class="icon brands solid alt fa-itch-io"><span class="label">Itch.io</span></a></li>
+                                        <li><a href="https://twitter.com/joshlynngames" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCCz8P_03vRNi4Mp_lfx5-CA/featured" class="icon brands alt solid fa-youtube"><span class="label">YouTube</span></a></li>
+                                        <li><a href="mailto:joshlynngames@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                                </ul>
+                                <ul class="copyright">
+                                        <li>&copy; 2021 Rights reserved:</li><li>Design: <a href="https://html5up.net">HTML5 UP</a>, specifically Landed</li>
+                                </ul>
+                        </footer>
+
+                </div>
+
+                <!-- Scripts -->
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/jquery.scrolly.min.js"></script>
+                <script src="assets/js/jquery.dropotron.min.js"></script>
+                <script src="assets/js/jquery.scrollex.min.js"></script>
+                <script src="assets/js/browser.min.js"></script>
+                <script src="assets/js/breakpoints.min.js"></script>
+                <script src="assets/js/util.js"></script>
+                <script src="assets/js/main.js"></script>
+
+        </body>
+        <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                                        showSlides(slideIndex += n);
+                                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                                        showSlides(slideIndex = n);
+                                }
+
+                function showSlides(n) {
+                                        var i;
+                                        var slides = document.getElementsByClassName("mySlides");
+                                        var dots = document.getElementsByClassName("dot");
+                                        if (n > slides.length) {slideIndex = 1}
+                                        if (n < 1) {slideIndex = slides.length}
+                                        for (i = 0; i < slides.length; i++) {
+                                                                slides[i].style.display = "none";
+                                                        }
+                                        for (i = 0; i < dots.length; i++) {
+                                                                dots[i].className = dots[i].className.replace(" aactive", "");
+                                                        }
+                                        slides[slideIndex-1].style.display = "block";
+                                        dots[slideIndex-1].className += " aactive";
+                                }
+
+
+
+        </script>
+</html>
+

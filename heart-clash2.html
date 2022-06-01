@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<!--
+        Landed by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+        <head>
+                <title>Heart Clash</title>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+                <link rel="stylesheet" href="assets/css/main.css" />
+                <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+                <link rel="apple-touch-icon" sizes="180x180"    href="images/fav/apple-touch-icon.png">
+                <link rel="icon" type="image/png" sizes="128x128" href="images/fav/favicon-128x128.png">
+                <link rel="icon" type="image/png" sizes="64x64" href="images/fav/favicon-64x64.png">
+                <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+                <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+                <link rel="manifest"                            href="images/fav/site.webmanifest">
+                <link rel="mask-icon"                           href="images/fav/safari-pinned-tab.svg" color="#5bbad5">
+                <meta name="msapplication-TileColor" content="#da532c">
+                <meta name="theme-color" content="#ffffff">
+
+        </head>
+        <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                                        showSlides(slideIndex += n);
+                                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                                        showSlides(slideIndex = n);
+                                }
+
+                function showSlides(n) {
+                                        var i;
+                                        var slides = document.getElementsByClassName("mySlides");
+                                        var dots = document.getElementsByClassName("dot");
+                                        if (n > slides.length) {slideIndex = 1}
+                                        if (n < 1) {slideIndex = slides.length}
+                                        for (i = 0; i < slides.length; i++) { slides[i].style.display = "none";
+                                                        }
+                                        for (i = 0; i < dots.length; i++) { dots[i].className = dots[i].className.replace(" aactive", ""); }
+                                        slides[slideIndex-1].style.display = "block";
+                                        dots[slideIndex-1].className += " aactive";
+                                }
+        </script>
+        <body class="is-preload">
+                <div id="page-wrapper">
+
+                        <!-- Header -->
+                        <header id="header">
+                                <h1 id="logo"><a href="index.html">Joshlynn</a></h1>
+                                <nav id="nav">
+                                        <ul>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li>
+                                                        <a href="#">Games</a>
+                                                        <ul>
+                                                                <li><a href="heart-clash2.html">Heart Clash</a></li>
+                                                                <li><a href="rhythm.html">Phantom Rhythm Girl</a></li>
+                                                                <li><a href="more.html">Game Jam Projects</a></li>
+                                                                <li><a href="dod.html">Developers of Dearborn</a></li>
+                                                        </ul>
+                                                </li>
+                                                <li><a href="about.html">About Me </a></li>
+                                                <li><a href="resume.pdf" class="button primary">Resume</a></li>
+                                        </ul>
+                                </nav>
+                        </header>
+
+                        <!-- Main -->
+                        <div id="main" class="wrapper style1 container li">
+                                <!-- Introduction -->
+                                <section>
+                                        <header class="major">
+                                                <h2>Heart Clash</h2>
+                                                <p>Game Designer, Game Programmer</p>
+                                        </header>
+
+                                        <figure>
+                                                <img src="images/heart.png.1">
+                                                <br/>
+                                        </figure>
+                                        <br/>
+                                </section>
+
+
+                                <!-- About -->
+                                <section> 
+                                        <h2> About </h2>
+                                        <ul class="li">
+                                                <li> Developed in Unity </li>
+                                                <li> For Yuri Game Jam 2020 </li>
+                                                <li> 20 minute game length </li>
+                                                <li> Team of 7 people created a 20 minute game in 2 months</li>
+                                        </ul>
+                                        <ul class="actions"><li><a href="https://pixitales.itch.io/heart-clash" class="button primary">Play now on Itch.io</a></li> </ul>
+                                </section>
+                                <br/>
+
+                                <section>
+                                        <dl class="li">
+                                                <dt>Game Designer</dt>
+                                                <dd>Designed boss fight</dd>
+                                                <dd>Designed player movement</dd>
+
+                                                <br/>
+                                                <dt>Unity Game Developer</dt>
+                                                <dd>Implemented player movement</dd>
+                                                <dd>Programmed enemy AI</dd>
+
+                                        </dl>
+                                </section>
+
+
+
+
+                                </section>
+                                <!-- Screenshots of the game and game itself -->
+                                <!-- Slideshow container -->
+                                <div class="slideshow-container" >
+
+                                        <!-- Full-width images with number and caption text -->
+                                        <div class="mySlides fade">
+                                                <div class="numbertext">1 /6</div>
+                                                <img src="images/hc_lvl1_enemy.gif" style="width:100%; padding: 40px 0 40px;">
+                                                <div class="text">Level 1</div>
+                                        </div> 
+                                        <div class="mySlides fade">
+                                                <div class="numbertext">2 / 6</div>
+                                                <img src="images/hc_lvl2.gif" style="width:100%; padding: 40px 0 40px;">
+                                                <div class="text">Level 2</div>
+                                        </div> 
+                                        <div class="mySlides fade">
+                                                <div class="numbertext">3 / 6</div>
+                                                <img src="images/hc_lvl2_2.gif" style="width:100%; padding: 40px 0 40px;">
+                                                <div class="text">Level 3</div>
+                                        </div> 
+                                        <div class="mySlides fade">
+                                                <div class="numbertext">4 / 6</div>
+                                                <img src="images/boos.gif" style="width:100%; padding: 40px 0 40px;">
+                                                <div class="text">Boss fight </div>
+                                        </div> 
+                                        <div class="mySlides fade">
+                                                <div class="numbertext">5 / 6</div>
+                                                <img src="images/hc_cutscene.gif" style="width:100%; padding: 40px 0 40px;">
+                                                <div class="text">Cutscene 1</div>
+                                        </div> 
+                                        <div class="mySlides fade">
+                                                <div class="numbertext">6 / 6</div>
+                                                <img src="images/hc_cutscene_2.gif" style="width:100%; padding: 40px 0 40px;">
+                                                <div class="text">Cutscene 2</div>
+                                        </div> 
+
+
+                                        <!-- Next and previous buttons -->
+                                        <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+                                        <div class="next" onclick="plusSlides(1)">&#10095;</div>
+                                </div>
+                                <br>
+
+                                <!-- The dots/circles -->
+                                <div style="text-align:center">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                        <span class="dot" onclick="currentSlide(5)"></span>
+                                        <span class="dot" onclick="currentSlide(6)"></span>
+                                </div>
+
+
+                                </section>
+
+                                <section>
+
+
+                                </section>
+
+                        </div>
+
+                        <!-- Footer -->
+                        <footer id="footer">
+                                <ul class="icons">
+                                        <li><a href="https://joshlynn.itch.io/" class="icon brands solid alt fa-itch-io"><span class="label">Itch.io</span></a></li>
+                                        <li><a href="https://twitter.com/joshlynngames" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCCz8P_03vRNi4Mp_lfx5-CA/featured" class="icon brands alt solid fa-youtube"><span class="label">YouTube</span></a></li>
+                                        <li><a href="mailto:joshlynngames@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                                </ul>
+                                <ul class="copyright">
+                                        <li>&copy; 2021 Rights reserved:</li><li>Design: <a href="https://html5up.net">HTML5 UP</a>, specifically Landed</li>
+                                </ul>
+                        </footer>
+
+                </div>
+
+                <!-- Scripts -->
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/jquery.scrolly.min.js"></script>
+                <script src="assets/js/jquery.dropotron.min.js"></script>
+                <script src="assets/js/jquery.scrollex.min.js"></script>
+                <script src="assets/js/browser.min.js"></script>
+                <script src="assets/js/breakpoints.min.js"></script>
+                <script src="assets/js/util.js"></script>
+                <script src="assets/js/main.js"></script>
+
+        </body>
+        <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                                        showSlides(slideIndex += n);
+                                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                                        showSlides(slideIndex = n);
+                                }
+
+                function showSlides(n) {
+                                        var i;
+                                        var slides = document.getElementsByClassName("mySlides");
+                                        var dots = document.getElementsByClassName("dot");
+                                        if (n > slides.length) {slideIndex = 1}
+                                        if (n < 1) {slideIndex = slides.length}
+                                        for (i = 0; i < slides.length; i++) {
+                                                                slides[i].style.display = "none";
+                                                        }
+                                        for (i = 0; i < dots.length; i++) {
+                                                                dots[i].className = dots[i].className.replace(" aactive", "");
+                                                        }
+                                        slides[slideIndex-1].style.display = "block";
+                                        dots[slideIndex-1].className += " aactive";
+                                }
+
+
+
+        </script>
+</html>
+
